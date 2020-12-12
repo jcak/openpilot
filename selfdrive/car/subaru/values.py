@@ -92,6 +92,31 @@ FW_VERSIONS = {
       b'\x00\xfe\xf7\x00\x00',
     ],
   },
+  CAR.FORESTER: {
+    # 2020 Forester
+    # Ecu, addr, subaddr: ROM ID
+    (Ecu.fwdRadar, 0x7d0, None): [
+      b'\x00\x00\x01',
+    ],
+    (Ecu.engine, 0x7e0, None): [
+      b'\xb6\xa2`A\a',
+    ],
+    (Ecu.fwdCamera, 0x7c4, None): [
+      b'\"\x00\x10\x00\x01',
+    ],
+    (Ecu.transmission, 0x7e1, None): [
+      b'\x1a\xe6F1\x00',
+    ],
+    (Ecu.eps, 0x746, None): [
+      b'\x8d\xc0\x00\x00',
+    ],
+    (Ecu.esp, 0x7b0, None): [
+      b'\xa3 \x19$\x00',
+    ],
+    (Ecu.fwdCamera, 0x787, None): [
+      b'\x00\x00e^\x1f@ !',
+    ],
+  },
   CAR.FORESTER_HYBRID: {
     # 2020 Forester Hybrid - UDM / @jaypray
     # Ecu, addr, subaddr: ROM ID
